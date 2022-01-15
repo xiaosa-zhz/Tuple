@@ -50,6 +50,7 @@ int main()
 		my::get<4>(t),
 		my::get<5>(t));
 	std::wcout << std::endl;
+	std::wcout << std::format(L"get<double> -> {}\n", my::get<double>(t));
 	std::wcout << std::format(L"sizeof(int)={}\nsizeof(char)={}\nsizeof(double)={}\nsizeof(tuple)={}\n",
 		sizeof(int),
 		sizeof(char),
